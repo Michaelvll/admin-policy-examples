@@ -1,0 +1,7 @@
+"""Example admin policy module and prebuilt policies."""
+from admin_policy_examples.skypilot_policy import AddLabelsPolicy
+from admin_policy_examples.skypilot_policy import DisablePublicIpPolicy
+from admin_policy_examples.skypilot_policy import DynamicKubernetesContextsUpdatePolicy
+from admin_policy_examples.skypilot_policy import EnforceAutostopPolicy
+from admin_policy_examples.skypilot_policy import RejectAllPolicy
+from admin_policy_examples.skypilot_policy import UseSpotForGpuPolicy
